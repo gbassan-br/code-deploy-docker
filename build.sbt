@@ -10,7 +10,7 @@ scalaVersion := "2.11.8"
 packageName in Docker := "sample-repository"
 dockerExposedPorts := Seq(5000)
 dockerUpdateLatest := true
-dockerRepository := Some("REPLACE.WITH.YOUR.REPOSITORY.URI")
+dockerRepository := Some("014827024864.dkr.ecr.us-east-1.amazonaws.com")
 
 
 libraryDependencies ++= Seq(
