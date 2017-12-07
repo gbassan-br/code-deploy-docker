@@ -32,7 +32,7 @@ object Main extends App {
     handleExceptions(exceptionHandler) {
       handleRejections(rejectionHandler) {
         {
-          pathPrefix("v1") {
+          pathPrefix("v2") {
             sampleRoutes
           }
         }
